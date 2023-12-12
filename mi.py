@@ -16,7 +16,7 @@ prompt = "Resumen de la pelicula Matrix"
 respuesta= openai.Completion.create(
     engine=modelo,
     prompt=prompt,
-    n=3,
+    n=1,
     temperature=1,
     max_tokens=100
 )
